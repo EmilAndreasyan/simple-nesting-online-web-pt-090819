@@ -16,9 +16,8 @@ def hopper
         }
      }
 
-
-end
 hopper[:grace_hopper]
+end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
@@ -38,8 +37,9 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+     alan_kay_is_known_for[:alan_kay][:known_for]
 end
-alan_kay_is_known_for[:alan_kay][:known_for]
+
 
 
 def dennis_ritchies_language
